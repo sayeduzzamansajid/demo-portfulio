@@ -5,10 +5,10 @@
 
 /* header style */
 .header{
-    /* background-image: url(portfolio-resources/images/header_bg.png); */
     background-image: url(portfolio-resources/images/developer.png), url(portfolio-resources/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    padding: 50px 38px;
 }
 /* header style */
 
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
 .nav ul,a{
     display: flex;
@@ -84,11 +84,18 @@
 .bg-clr{
     background-color: #FFF8F3;
 }
+.center{
+    text-align: center;
+}
 /* shared style */
 
 main{
     max-width: 1140px;
     margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 /* About me style */
@@ -114,4 +121,25 @@ main{
 .infodata{
     font-weight: 600;
 
+}
+
+/* skills style */
+.skillhold{
+    display: flex;
+    gap: 24px;
+
+}
+.skillname{
+    padding: 30px;
+    box-shadow: 8px 8px 50px 0px rgba(0,0,0,6%);
+    height: 250px;
+
+}
+.skilltitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skilldesc{
+    font-size: 16;
+    color: #757575;
 }
