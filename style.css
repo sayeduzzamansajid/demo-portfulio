@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     padding: 50px 38px;
+    
 }
 /* header style */
 
@@ -43,7 +44,15 @@
     font-weight: bold;
     padding: 18px 35px;
 }
-
+.btn:hover{
+    background-color: white;
+    color: #FD6E0A;
+    transform: scale(1.15);
+}
+.btn-cnt{
+    display: flex;
+    gap: 30px;
+}
 /* navigation style */
 
 /* banner style */
@@ -54,6 +63,11 @@
 }
 .banner-content{
     max-width: 580px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    
 
 }
 .grtngs{
@@ -133,7 +147,12 @@ main section{
     padding: 30px;
     box-shadow: 8px 8px 50px 0px rgba(0,0,0,6%);
     height: 250px;
+    border-radius: 10px;
 
+}
+.skillname:hover{
+    background-color: #8282823a;
+    transform: scale(1.05);
 }
 .skilltitle{
     font-size: 20px;
