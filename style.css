@@ -115,7 +115,7 @@ main section{
 /* About me style */
 .about{
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 90px 150px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -125,19 +125,28 @@ main section{
 .about-data{
     display: flex;
     justify-content: space-around;
+    gap: 50px;
 }
-.data{
-
+.data:hover{
+    transform: scale(1.10);
 }
 .info{
-
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
 }
 .infodata{
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 25px;
 
 }
 
 /* skills style */
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 .skillhold{
     display: flex;
     gap: 24px;
@@ -151,7 +160,7 @@ main section{
 
 }
 .skillname:hover{
-    background-color: #8282823a;
+    background-color: #afacac3a;
     transform: scale(1.05);
 }
 .skilltitle{
