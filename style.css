@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+}
+.nav ul,a{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+}
+.logo{
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+.sp{
+    color: #FD6E0A;
+}
+.btn{
+    padding: 15px 40px;
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 10px;
+    font-size: 20px;
+}
